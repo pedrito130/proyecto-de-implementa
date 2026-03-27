@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+        float m;
+        float r;
+        cout<< "ingresa la cantidad en millas: ";
+        cin>>m;     
+        r= m * 1.60934;
+        cout<< "la cantidad en kilometros es: "<<r;
+        
+    return 0;
+}
